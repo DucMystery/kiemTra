@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai 3</title>
+</head>
+<body>
+<script>
+    let old=parseInt(prompt("Moi nhap vao so tuoi:"));
+    let d=new Date();
+    function checkOld(number) {
+        if (number>d.getFullYear()){
+            alert("Khong Hop Le!");
+        }else {
+           return  d.getFullYear()-number;
+        }
+    }
+    alert(checkOld(old));
+</script>
+</body>
+</html>
